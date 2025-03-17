@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: url(/Website/image/Mugiwara.jpg);
+    background-size: cover;
+    color: #121212;
+    height: 70vh;
+
+}
+
+.header-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 5%;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e50914;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+}
+
+.search input, .search select, .search button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.new-releases, .top-trending {
+    padding: 20px;
+}
+
+.new-releases h2, .top-trending h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.manga-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.manga-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.manga-item img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.manga-item .item img:hover {
+    transform: scale(1.1);
+}
+
+.top-trending ol {
+    list-style: none;
+    padding: 0;
+}
+
+.top-trending li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+}
